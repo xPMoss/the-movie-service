@@ -1,8 +1,9 @@
 {
   "name": "The movies service",
   "short_name": "tms",
-  "description":"The movies service",
+  "description": "The movies service",
   "start_url": "/the-movie-service/",
+  "scope": "/the-movie-service/",
   "display": "fullscreen",
   "display_override": [ "fullscreen", "standalone" ],
   "background_color": "#3D4C5C",
@@ -13,14 +14,16 @@
   },
   "icons": [
     {
-      "src": "icon-512.png",
+      "src": "./icon-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     },
     {
-      "src": "icon-192.png",
+      "src": "./icon-192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     }
   ]
 }
