@@ -1,0 +1,29 @@
+{
+  "name": "The movies service",
+  "short_name": "TMS",
+  "description":"The movies service",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": [ "fullscreen", "standalone" ],
+  "background_color": "#3D4C5C",
+  "theme_color": "#3D4C5C",
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": [ "focus-existing", "auto" ]
+  },
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ]
+}
